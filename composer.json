@@ -1,0 +1,25 @@
+{
+  "name": "vendor_name/text_parser_test",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "config": {
+    "optimize-autoloader": true
+  },
+  "require": {
+    "php": ">=8.0",
+    "myclabs/php-enum": "^1.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "TextParser\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TextParser\\Tests\\": "test"
+    }
+  }
+}
